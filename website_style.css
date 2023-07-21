@@ -169,16 +169,131 @@ padding-top: 30px;
 }
 .expertize{
     display: flex;
+    text-align:center;
+    margin: 50px auto;
+    justify-content: space-evenly;
+    padding:0 120px 0 120px;
 }
 .languages{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(31, 28, 28, 0.06);
     max-width: 267px;
-    min-height: 377px;
+    max-height: 377px;
     text-align:left;
+    justify-content: space-evenly;
+    padding: 30px 30px;
+
 
 }
 .languages > p h4 svg{
     padding: 0 33px 0 33px;
 }
+/*Summery part*/
+.summery{
+margin: 0 auto;
+}
 
+.Summery-title{
+    color:#181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: normal;
+}
+.summery-section{
+display: flex;
+justify-content: space-around;
+}
+.summery-info{
+    max-width: 511px;
+max-height: 175px;
+flex-shrink: 0;
+}
+.summery-span{
+width: 558px;
+height: 1px;
+background: #D1D1D1;
+}
+.summery-heading{
+    color: var(--dark-02, #474747);
+font-family: Open Sans;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.summery-subh{
+    color: var(--dark-02, #474747);
+font-family: Open Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.summery-ssh{
+    color: var(--dark-03, #757575);
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.summery-body{
+    max-width: 511px;
+    color: var(--dark-03, #757575);
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+/*was my command*/
 
+/*.btn-summery{
+    width: 200px;
+height: 64px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #FD6E0A;
+margin: 100px auto;
+text-align: center;
+display: block;
+}
 
+.btn-summery > a {
+    font-color:#FFF;
+text-align: center;
+font-size: 20px;
+font-weight: 700;
+text-decoration: none;
+}*/
+/*correction... */
+
+.btn-summery {
+    width: 200px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FD6E0A;
+    margin: 100px auto;
+    text-align: center;
+    display: flex; /* Use flex to align text and icon */
+    align-items: center; /* Align items vertically in the center */
+    justify-content: center; /* Align items horizontally in the center */
+}
+
+.btn-summery > a {
+    color: #FFF; /* Corrected property name */
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-flex; /* Use inline-flex to keep text and icon in one line */
+    align-items: center; /* Align items vertically in the center */
+}
+.btn-summery :active{
+    font-color:#FFF;
+}
+.btn-summery > span {
+    text-align: center;
+}
