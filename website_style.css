@@ -273,8 +273,9 @@ text-decoration: none;
 .btn-summery {
     width: 200px;
     height: 64px;
-    flex-shrink: 0;
     border-radius: 5px;
+    border: none; /*removes border*/
+    outline: none;
     background: #FD6E0A;
     margin: 100px auto;
     text-align: center;
@@ -292,8 +293,56 @@ text-decoration: none;
     align-items: center; /* Align items vertically in the center */
 }
 .btn-summery :active{
-    font-color:#FFF;
+    color:#FFF;
 }
+
 .btn-summery > span {
     text-align: center;
 }
+/*Footer styles*/
+.footer{
+    max-width: 1600px;
+height: 780px;
+flex-shrink: 0;
+background: #FFF8F3;
+padding:130px 230px 130px 230px;
+}
+
+.footer-left{
+max-width: 50%;
+
+}
+
+.footer-right{
+    max-width: 50%;
+
+}
+
+.f-left-info > h2{
+    color:#181818;
+text-align: left;
+font-family: Open Sans;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.f-left-info > p{
+    color:#474747;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+
+.f-left-logo{
+    display: flex;
+}
+
+.f-r-icons{
+    margin-right: 25px;
+    margin-top: 30px;
+    flex-shrink: 0;
+}
+
