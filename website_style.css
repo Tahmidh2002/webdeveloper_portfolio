@@ -356,4 +356,26 @@ line-height: 28px; /* 175% */
     font-weight: 700;
     line-height: normal;
 }
-
+/*.form-1{
+    width: 461px;
+height: 64px;
+flex-shrink: 0;
+border-radius: 5px;
+background: var(--white-color, #FFF);
+}*/
+.form-main input[type="text"], .form-main input[type="email"],
+textarea{
+display: block;
+margin-bottom: 25px;
+padding: 18px 35px;
+color: #757575;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+border: 0;
+border-radius: 5px;
+background:#FFF;
+width: 100%;
+}
