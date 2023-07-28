@@ -120,6 +120,7 @@ margin: 0 auto;
 .body-locations{
     display: flex;
     justify-content:space-evenly;
+    padding-bottom: 100px;
 }
 
 .divinfo{
